@@ -19,8 +19,11 @@ country = st.text_input("Enter Country (e.g., Canada or USA)", value="")
 bom_file = st.file_uploader("Upload BOM Wall Parts Excel file", type=["xlsx"])
 
 # Fixed paths for standard files
-standard_solver_path = '/Users/craignyabvure/Desktop/Python Test Projects AGI/Trailer Loading/Solver (2).xlsx'
-standard_roof_path = '/Users/craignyabvure/Desktop/Python Test Projects AGI/Trailer Loading/Roof Sheet Dimensions.xlsx'
+standard_solver_path = 'Solver (2).xlsx'
+standard_roof_path = 'Roof Sheet Dimensions.xlsx'
+
+# standard_solver_path = '/Users/craignyabvure/Desktop/Python Test Projects AGI/Trailer Loading/Solver (2).xlsx'
+# standard_roof_path = '/Users/craignyabvure/Desktop/Python Test Projects AGI/Trailer Loading/Roof Sheet Dimensions.xlsx'
 
 if bom_file:
     with st.spinner("Running trailer loading optimization..."):
