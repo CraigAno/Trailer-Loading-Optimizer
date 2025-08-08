@@ -15,7 +15,7 @@ The app will automatically use the standard Solver and Roof Dimensions files.
 """)
 
 # Only BOM upload
-country = st.text_input("Enter Country (e.g., Canada or USA)", value="")
+country = st.text_input("Enter Destination Country (e.g., Canada or USA)", value="")
 bom_file = st.file_uploader("Upload BOM Wall Parts Excel file", type=["xlsx"])
 
 # Fixed paths for standard files
