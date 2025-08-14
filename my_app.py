@@ -108,7 +108,7 @@ if bom_file:
                     </div>
                     """,
                     width=1220, 
-                    height=400,   
+                    height=600,   
                     scrolling=True
                 )
 
