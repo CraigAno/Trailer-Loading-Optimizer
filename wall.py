@@ -112,7 +112,7 @@ def run_trailer_optimizer(bom_file, solver_file, roof_dims_file, country, buffer
     # --- FLOOR SHEET DIMENSIONS HANDLING ---
     def prepare_floor_items(merged_df):
         # Fixed file path as per instructions
-        floor_path = '/Users/craignyabvure/Desktop/Python Test Projects AGI/Trailer Loading/Floor Dimensions.xlsx'
+        floor_path = 'Floor Dimensions.xlsx'
         floor_df = pd.read_excel(floor_path, engine="openpyxl")
         # Normalize column names
         floor_df.columns = floor_df.columns.str.strip().str.lower()
