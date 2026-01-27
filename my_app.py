@@ -132,7 +132,7 @@ st.markdown(
     }
     </style>
     <div class="footer">
-        © 2025 Westeel M.E. | Contact Westeel M.E.Dept for questions or support.
+        © 2026 Westeel M.E. | Contact Westeel M.E.Dept for questions or support.
     </div>
     """,
     unsafe_allow_html=True
